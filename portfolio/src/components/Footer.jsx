@@ -5,6 +5,10 @@ function Footer() {
     <nav id="contact">
       <span>bos.seretsi@gmail.com
       </span>
+    
+    <span >Contact no: 079 1064 668</span>
+    
+    
     </nav>
   )
 }

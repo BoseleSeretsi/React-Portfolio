@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Blog() {
+function Skills() {
   return (
     <div>
-      Blog
+     skills
     </div>
   )
 }
 
-export default Blog
+export default Skills

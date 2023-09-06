@@ -11,13 +11,13 @@ function Navbar() {
         </span>
         <ul className={`${showMenu ? "active" : "hide"}`}>
           <li onClick={() => setShowMenu(false)}>
-            <a href="#hero">Home</a>
+            <a href="Home">Home</a>
           </li>
           <li onClick={() => setShowMenu(false)}>
-            <a href="#projects">Work</a>
+            <a href="Projects">Work</a>
           </li>
           <li onClick={() => setShowMenu(false)}>
-            <a href="#about">About Me</a>
+            <a href="About">About Me</a>
           </li>
           <li onClick={() => setShowMenu(false)}>
             <a href="#contact">Contact</a>
@@ -32,3 +32,4 @@ function Navbar() {
 }
 
 export default Navbar
+

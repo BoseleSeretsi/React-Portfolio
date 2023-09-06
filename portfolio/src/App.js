@@ -1,18 +1,16 @@
-import { Navbar, Hero, About, Testimonial, Blog, Footer , Projects } from "./components";
+import { Navbar,Footer , Projects, Skills, Home } from "./components";
+import Routing from "./routing";
 
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Blog />
+      <Routing/>
       <Footer />
-      <Testimonial />
     </>
   );
 }
 
 export default App;
+
