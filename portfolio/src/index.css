@@ -290,3 +290,147 @@ figure{
     text-align: center;
   }
 }
+
+
+Portfolio.css
+
+ .portfolio-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #007BFF;  /* A shade of blue */
+    color: #007BFF;
+}
+
+.portfolio-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.portfolio-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.portfolio-header p {
+    font-size: 1.5em;
+    color: #116ce2;  /* A shade of gold for contrast */
+}
+
+.portfolio-intro {
+    margin: 40px 0;
+    font-size: 1.1em;
+    border-left: 5px solid #0da4e0e8;  /* A left border for style */
+    padding-left: 15px;
+}
+
+.portfolio-projects {
+    margin: 40px 0;
+}
+
+.portfolio-projects h2 {
+    color: #116ce2;  /* Gold color for headings */
+    border-bottom: 2px solid #0ca9d0;
+    display: inline-block;
+}
+
+.portfolio-projects ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.portfolio-projects li a {
+    text-decoration: none;
+    color: #116ce2;  /* A shade of orange-red for links */
+    border-bottom: 1px dashed #116ce2;
+    padding: 2px 0;
+}
+
+.portfolio-projects li a:hover {
+    color: #116ce2;
+    border-bottom: 1px solid #116ce2;
+}
+
+.portfolio-contact {
+    margin-top: 40px;
+}
+
+.portfolio-contact h2 {
+    color: #116ce2;  /* Gold color for headings */
+}
+
+.portfolio-contact a {
+    color: #116ce2;  /* A shade of orange-red for links */
+    text-decoration: none;
+    border-bottom: 1px dashed #116ce2;
+}
+
+.portfolio-contact a:hover {
+    color: #116ce2;
+    border-bottom: 1px solid #116ce2;
+}
+
+.portfolio-footer {
+    margin-top: 60px;
+    text-align: center;
+    color: #116ce2;  /* Gold color for the footer */
+}
+
+
+
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333; 
+  padding: 20px;
+}
+
+.footer-container a {
+  margin: 0 15px;
+}
+
+.footer-container img {
+  width: 30px;
+  height: 30px;
+  transition: opacity 0.3s;
+}
+
+.footer-container img:hover {
+  opacity: 0.7;
+}
+
+
+
+
+
+
+.work-container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skills-list li {
+  background-color: #007bff; /* Bootstrap primary color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}

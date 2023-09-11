@@ -1,35 +1,35 @@
-import { useState } from 'react'
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
-  const [showMenu, setShowMenu] = useState(false)
+  const [showMenu, setShowMenu] = useState(false);
   return (
     <nav>
-      <div id='brand'>Bosele</div>
+      <div id="brand">My portfolio</div>
       <div id="nav-menu">
         <span onClick={() => setShowMenu(!showMenu)} className="mobile-menu">
           Menu
         </span>
         <ul className={`${showMenu ? "active" : "hide"}`}>
-          <li onClick={() => setShowMenu(false)}>
-            <a href="Home">Home</a>
+          <li>
+            <Link to="/">Home</Link>
           </li>
-          <li onClick={() => setShowMenu(false)}>
-            <a href="Projects">Work</a>
+          <li>
+            <Link to="projects">Work</Link>
           </li>
-          <li onClick={() => setShowMenu(false)}>
-            <a href="About">About Me</a>
+          <li>
+            <Link to="about">About Me</Link>
           </li>
           <li onClick={() => setShowMenu(false)}>
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <button className='cta-outline'>Hire Me</button>
+            <button className="cta-outline">Hire Me</button>
           </li>
         </ul>
       </div>
     </nav>
-  )
+  );
 }
 
-export default Navbar
-
+export default Navbar;
