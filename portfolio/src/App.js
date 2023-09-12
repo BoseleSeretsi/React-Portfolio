@@ -100,6 +100,9 @@ export default function BasicExample() {
       <Route path="/contact" element={<contact/>}/>
       {/* <Route path="/" element={Home}/> */}
     </Routes>
+    <Skills/>
+    <Testimonial/>
+    <Footer/>
     </>
   );
 }

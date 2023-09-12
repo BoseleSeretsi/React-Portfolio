@@ -5,7 +5,7 @@ function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <nav>
-      <div id="brand">My portfolio</div>
+      <div id="brand">B.S - Portfolio</div>
       <div id="nav-menu">
         <span onClick={() => setShowMenu(!showMenu)} className="mobile-menu">
           Menu

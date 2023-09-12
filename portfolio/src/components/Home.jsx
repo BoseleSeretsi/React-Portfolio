@@ -4,7 +4,7 @@ import React from 'react';
 // import SomeComponent from './SomeComponent';
 // import './Portfolio.css'; 
 
-const Portfolio = () => {
+ const Portfolio = () => {
     return (
         <div className="portfolio-container">
             <header className="portfolio-header">
@@ -39,4 +39,27 @@ const Portfolio = () => {
     );
 };
 
-export default Portfolio;
+
+
+
+
+const Home = () => {
+    const imageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrVB-eaAagTMtDcZCmbHclzDmIW2zxstQcruFipJrW_30L9kITNzyRav9ERckW5nSBYKw&usqp=CAU"; // Replace with your actual image URL
+
+    const backgroundStyle = {
+        height: '100vh', 
+        backgroundImage: `url(${ imageUrl})`,
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center center',
+    };
+
+    return (
+        <div style={backgroundStyle}>
+            {/* ... rest of your home content */}
+        </div>
+    );
+}
+
+
+export { Portfolio, Home}
