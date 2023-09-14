@@ -1,8 +1,16 @@
 
 
 import React from 'react';
+import Skills from './Skills';
+import Testimonial from './Testimonial';
 // import SomeComponent from './SomeComponent';
 // import './Portfolio.css'; 
+
+function Me() {
+    return (
+        <Portfolio></Portfolio>
+    )
+  }
 
  const Portfolio = () => {
     return (
@@ -18,14 +26,7 @@ import React from 'react';
                 </p>
             </section>
 
-            <section classNamea="portfolio-projects">
-                <h2>My Projects</h2>
-                <ul>
-                    <li><a href="#project1">Project 1</a></li>
-                    <li><a href="#project2">Project 2</a></li>
-                    <li><a href="#project3">Project 3</a></li>
-                </ul>
-            </section>
+           
 
             <section className="portfolio-contact">
                 <h2>Get in Touch</h2>
@@ -57,9 +58,45 @@ const Home = () => {
     return (
         <div style={backgroundStyle}>
             {/* ... rest of your home content */}
+            <div className="portfolio-container">
+            <header className="portfolio-header">
+                <h1>Bosele seretsi</h1>
+                <p>[Fullstack]Web Developer</p>
+            </header>
+
+            <section className="portfolio-intro">
+                <p>
+                "Hello! I'm [Bosele Seretsi], crafting digital experiences straight from [North-West, Klerksdorp]. My journey in web development blends aesthetics with functionality, giving life to memorable web creations. Dive into my portfolio and see where innovation meets design. Let's connect and create something incredible!"
+                </p>
+            </section>
+
+           
+<Skills/>
+<Testimonial/>
+           
+
+        </div>
         </div>
     );
 }
 
 
-export { Portfolio, Home}
+
+const Projects = () => {
+    return (
+        
+
+            <section classNamea="portfolio-projects">
+                <h2>My Projects</h2>
+                <ul>
+                    <li>
+                        <a href="https://github.com/BoseleSeretsi/Survey-App"><img src=""></img>Quick-Survey's</a></li>
+                    <li><a href="https://github.com/BoseleSeretsi/personal-application"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fthediynuts.com%2Fdiy-home-projects-you-can-this-weekend%2F&psig=AOvVaw1aLYtqMCrEWjPCG_tt6IFi&ust=1694783553895000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJDivO-WqoEDFQAAAAAdAAAAABAE"></img>DIY House Renovations</a></li>
+                    <li><a href="#project3">Project 3</a></li>
+                </ul>
+            </section>
+
+    );
+};
+
+export { Portfolio, Home, Projects}

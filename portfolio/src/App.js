@@ -22,7 +22,7 @@
 
 import React from "react";
 // import { Navbar } from "./components";
-import { About, Footer, Home, Navbar, Projects, Skills, Testimonial } from './components'
+import { About, Contact, Footer, Home, Navbar, Projects, Skills, Testimonial } from './components'
 // import { Home } from "./components";
 // import {Projects }from "./components";
 // import {About }from "./components";
@@ -35,6 +35,7 @@ import {
   Routes
 } from "react-router-dom";
 
+
 // This site has 3 pages, all of which are rendered
 // dynamically in the browser (not server rendered).
 //
@@ -43,7 +44,7 @@ import {
 // through the site. This preserves the browser history,
 // making sure things like the back button and bookmarks
 // work properly.
-
+// import { Contact  } from './components/Contact'
 export default function BasicExample() {
   return (
     // <Router>
@@ -96,12 +97,18 @@ export default function BasicExample() {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About />}/>
-      <Route path="/Skills" element={<work/>}/>
-      <Route path="/contact" element={<contact/>}/>
+
+      <Route path="/Projects" element={<Projects />}/>
+
+      <Route path="/Contact" element={<Contact />}/>
+
+      <Route path="/Skills" element={<Skills/>}/>
+      {/* <Route path="/Contact" element={<Contact/>}/> */}
       {/* <Route path="/" element={Home}/> */}
     </Routes>
+    {/* <Portfolio></Portfolio>
     <Skills/>
-    <Testimonial/>
+    <Testimonial/> */}
     <Footer/>
     </>
   );

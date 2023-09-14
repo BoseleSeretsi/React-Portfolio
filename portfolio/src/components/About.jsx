@@ -1,4 +1,5 @@
 import me from '../images/me.jpeg';
+import Testimonial from './Testimonial';
 
 function About() {
   return (
@@ -17,10 +18,12 @@ function About() {
             <button className="cta-outline black">See My Resume</button>
           </div>
         </div>
-
       </main>
+      <Testimonial/>
+
     </section>
+
+
   )
 }
-
 export default About

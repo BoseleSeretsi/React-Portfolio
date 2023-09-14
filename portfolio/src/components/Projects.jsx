@@ -1,11 +1,11 @@
 import React from 'react'
-
-function Projects() {
+ import { Skills } from './Skills'
+ import { Projects } from './Home'
+ import Testimonial from './Testimonial';
+function Project() {
   return (
-    <div>
-      Projects
-    </div>
+    <Projects></Projects>
   )
 }
-
-export default Projects
+<Testimonial />
+export default Project

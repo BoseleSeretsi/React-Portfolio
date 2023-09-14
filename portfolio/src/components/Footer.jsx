@@ -1,7 +1,7 @@
 // Footer.js
 import React from 'react';
 import{
-  // AiOutlineGitHub,
+AiOutlineGithub,
   AiOutlineLinkedin,
   AiOutlineFacebook,
   AiOutlineInstagram,
@@ -13,10 +13,10 @@ const Footer = () => {
         <footer className="footer-container">
             <a href="https://Github.com/BoseleSeretsi" target="_blank" rel="noopener noreferrer">
                 {" "}
-                {/* <AiOutlineGitHub size={50}/>{""} */}
+                <AiOutlineGithub size={50}/>{""}
             </a>
 
-            <a href="https://linkedin.com/in/Bosele Seretsi" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/bosele-seretsi-b16314278" target="_blank" rel="noopener noreferrer">
                 {" "}
                 <AiOutlineLinkedin size={50}/>{""}
             </a>

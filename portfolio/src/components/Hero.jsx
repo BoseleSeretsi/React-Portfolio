@@ -1,4 +1,5 @@
 import me from '../images/me.jpeg';
+import Testimonial from './Testimonial';
 
 function About() {
   return (
@@ -21,5 +22,5 @@ function About() {
     </section>
   )
 }
-
+<Testimonial/>
 export default About

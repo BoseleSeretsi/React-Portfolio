@@ -1,8 +1,8 @@
 import React from 'react';
 // import './Work.css';
 
-const Work = () => {
-    const skills = [
+const Skills = () => {
+    const Skills = [
         'HTML',
         'Tailwind',
         'GitHub',
@@ -11,6 +11,7 @@ const Work = () => {
         'Bootstrap',
         'Angular 2+ (15)',
         'CSS',
+        'React',
         'PostgreSQL'
     ];
 
@@ -18,12 +19,12 @@ const Work = () => {
         <div className="work-container">
             <h1>My Skills</h1>
             <ul className="skills-list">
-                {skills.map((skill, index) => (
-                    <li key={index}>{skill}</li>
+                {Skills.map((Skills, index) => (
+                    <li key={index}>{Skills}</li>
                 ))}
             </ul>
         </div>
     );
 };
 
-export default Work;
+export default Skills;

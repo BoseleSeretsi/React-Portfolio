@@ -10,22 +10,27 @@ function Navbar() {
         <span onClick={() => setShowMenu(!showMenu)} className="mobile-menu">
           Menu
         </span>
-        <ul className={`${showMenu ? "active" : "hide"}`}>
+        {/* <ul className={`${showMenu ? "active" : "hide"}`}> */}
+        <ul>
           <li>
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="projects">Work</Link>
+            <Link to="/Projects">Work</Link>
           </li>
           <li>
             <Link to="about">About Me</Link>
           </li>
-          <li onClick={() => setShowMenu(false)}>
-            <a href="#contact">Contact</a>
+          <li>
+            <Link to="/contact">Contact</Link>
           </li>
+          {/* <li onClick={() => setShowMenu(false)}>
+            <a href="#contact">Contact</a>
+          </li> */}
           <li>
             <button className="cta-outline">Hire Me</button>
           </li>
+        {/* </ul> */}
         </ul>
       </div>
     </nav>

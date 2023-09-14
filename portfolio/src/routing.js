@@ -4,12 +4,14 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import { Testimonial } from './components';
+import { Contact  } from './components/Contact'
 function Routing() {
     return (
       <Router>
         <Routes>
         <Route path="/Projects" element={<Projects/>} />
         <Route path="/About" element={<About/>} />
+        <Route path="/Contact" element={<Contact/>} />
         <Route path="/Footer" element={<Footer/>} />
         <Route path="/Testimonial" element={<Testimonial/>} />
         </Routes>
