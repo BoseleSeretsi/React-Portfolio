@@ -312,7 +312,7 @@ Portfolio.css .portfolio-container {
 .portfolio-intro {
   margin: 40px 0;
   font-size: 1.1em;
-  border-left: 5px solid #0da4e0e8; /* A left border for style */
+  border-left: 5px solid #fff; /* A left border for style */
   padding-left: 15px;
 }
 
