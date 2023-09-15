@@ -90,7 +90,7 @@ const Projects = () => {
                 <h2>My Projects</h2>
                 <ul>
                     <li>
-                        <a href="https://github.com/BoseleSeretsi/Survey-App"><img src="https://cdn.discordapp.com/attachments/1105089049401765940/1151868914674978866/SURVEY-IMAGE.png"></img>Quick-Survey's</a></li>
+                        <a href="https://github.com/BoseleSeretsi/Survey-App"><img src=""></img>Quick-Survey's</a></li>
                     <li><a href="https://github.com/BoseleSeretsi/personal-application"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fthediynuts.com%2Fdiy-home-projects-you-can-this-weekend%2F&psig=AOvVaw1aLYtqMCrEWjPCG_tt6IFi&ust=1694783553895000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJDivO-WqoEDFQAAAAAdAAAAABAE"></img>DIY House Renovations</a></li>
                     <li><a href="#project3">Project 3</a></li>
                 </ul>
