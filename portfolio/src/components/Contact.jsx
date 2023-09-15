@@ -171,34 +171,3 @@ function Contact() {
 
 
 
-// import React from 'react';
-// import Card from 'react-bootstrap/Card';
-
-// const Contact = () => {
-//   return (
-//     <Card style={{ width: '30rem', margin: '20px auto' }}>
-//       <Card.Body>
-//         <Card.Title>Contact Information</Card.Title>
-        
-//         <Card.Text>
-//           <strong>Email:</strong> your.email@example.com
-//         </Card.Text>
-        
-//         <Card.Text>
-//           <strong>WhatsApp:</strong> +1 234 567 8901
-//         </Card.Text>
-        
-//         <Card.Text>
-//           <strong>Phone:</strong> +1 234 567 8902
-//         </Card.Text>
-        
-//         <Card.Text>
-//           <strong>Work Address:</strong> 123 Main St, Anytown, Anywhere
-//         </Card.Text>
-//       </Card.Body>
-//     </Card>
-//   );
-// }
-
-// export default Contact;
-

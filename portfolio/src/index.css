@@ -19,6 +19,9 @@ nav {
   color: #fff;
   align-items: center;
   height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 nav ul {
@@ -41,6 +44,8 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
+
+
 
 .mobile-menu {
   display: none;
@@ -238,6 +243,7 @@ figure {
     width: 100%;
     opacity: 0.95;
     padding: 15px 5px;
+    
   }
 
   .mobile-menu {
@@ -322,7 +328,7 @@ Portfolio.css .portfolio-container {
 
 .portfolio-projects h2 {
   color: #116ce2; /* Gold color for headings */
-  border-bottom: 2px solid #0ca9d0;
+  border-bottom: 2px solid #e5dee3;
   display: inline-block;
 }
 
@@ -442,6 +448,12 @@ h1 {
   justify-content: center; /* Horizontally center the card */
   align-items: baseline; /* Vertically center the card */
   height: 20%; /* Make sure the container takes up the full height of the body */
+  background-color: #007bff;
+  width: 20%;
+  margin-left: 36rem;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  border-radius: 1rem;
 }
 
 .center-header {
@@ -471,6 +483,12 @@ h1 {
   justify-content: center; /* Horizontally center the card */
   align-items: baseline; /* Vertically center the card */
   height: 20%; /* Make sure the container takes up the full height of the body */
+  background-color: #007bff;
+  width: 20%;
+  margin-left: 36rem;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  border-radius: 1rem;
 }
 
 .center-card3 {
@@ -479,6 +497,12 @@ h1 {
   justify-content: center; /* Horizontally center the card */
   align-items: baseline; /* Vertically center the card */
   height: 20%; /* Make sure the container takes up the full height of the body */
+  background-color: #007bff;
+  width: 20%;
+  margin-left: 36rem;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  border-radius: 1rem;
 }
 
 .center-card4 {
@@ -487,4 +511,12 @@ h1 {
   justify-content: center; /* Horizontally center the card */
   align-items: baseline; /* Vertically center the card */
   height: 20%; /* Make sure the container takes up the full height of the body */
+  background-color: #007bff;
+  width: 20%;
+  margin-left: 36rem;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  border-radius: 1rem;
 }
+
+

@@ -28,7 +28,8 @@ function Navbar() {
             <a href="#contact">Contact</a>
           </li> */}
           <li>
-            <button className="cta-outline">Hire Me</button>
+            {/* <button className="cta-outline">Hire Me</button> */}
+            <a href="https://drive.google.com/file/d/1xSBsSBcWiooULZT57xpzuJFkENwLtJ-B/view?usp=drive_link" target="_blank" download>Hire Me</a>
           </li>
         {/* </ul> */}
         </ul>
