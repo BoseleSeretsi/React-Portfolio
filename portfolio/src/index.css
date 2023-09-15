@@ -519,4 +519,9 @@ h1 {
   border-radius: 1rem;
 }
 
+.project-img {
+  width: 450px;
+  height: 400px;
+}
+
 
